@@ -3,7 +3,7 @@ import sqlite3
 import pathlib
 
 working_directory = pathlib.Path(__file__).parent.absolute()
-DATABASE = working_directory / "CCL_ecommerce.db"
+DATABASE = working_directory / "Claudio_eccomdas.db"
 
 
 def query_db(query: str, args=()) -> list:
